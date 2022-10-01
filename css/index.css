@@ -1,0 +1,66 @@
+nav{
+	height: 7em;
+	background-color: #353A40;
+}
+.ticket{
+	margin-right: 1vw;
+}
+.tickets-f{
+	margin-right: 5vw;
+}
+.bg-img{
+	height: 40vw;
+	width: 100%;
+	position: relative;
+}
+.bg-img img{
+	width: 100%;
+	object-fit: cover;
+	filter: brightness(.5);
+	object-position: 0em -15em;
+}
+.bg-img div{
+	position: absolute;
+	width: 40%;
+	margin-right: 10em;
+}
+.bg-img div div{
+	width: 100%;
+}
+.tag{
+	padding: 2px 0px;
+}
+.oct{
+	
+}
+.oct div{
+	background-color: #353A40;
+	margin-left: 1px;
+}
+form div button{
+	background-color: #96C93E;
+}
+textarea{
+	height: 10em;
+}
+textarea::placeholder{
+	font-size: 20px;
+	padding: 0 10px;
+}
+footer{
+	background-color: #1E516E;
+	box-sizing:border-box;
+	flex-wrap: wrap;
+}
+footer a{
+	padding: 40px 0px;
+	margin: 0px 30px;
+	min-width: 10px;
+	max-width: 150px;
+}
+.wrap-card{
+	flex-wrap: wrap;
+}
+.wrap-card div{
+	min-width: 350px;
+}
